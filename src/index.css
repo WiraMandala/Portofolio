@@ -1,0 +1,28 @@
+@config "../tailwind.config.js";
+@import "tailwindcss";
+
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #0B1220 inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@theme {
+  --font-mono: 'Roboto Mono', monospace;
+  --font-grotesk: 'Space Grotesk', sans-serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}

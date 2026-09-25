@@ -1,0 +1,24 @@
+import ProjectDetail from "./Component/Project/ProjectDetail";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Navbar from "./Component/Navbar";
+import Footer from "./Component/Footer";
+
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects/:id" element={<ProjectDetail />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default App;
