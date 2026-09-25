@@ -1,4 +1,4 @@
-import Vertixplants from "../assets/Vertixplant.png";
+import Vertixplants from "../assets/vertixplant.png";
 import Atcs from "../assets/atcs.png";
 import LanyardP from "../assets/posterlanyard.png";
 import IdCard from "../assets/id_card.png";
