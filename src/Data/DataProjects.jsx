@@ -1,7 +1,7 @@
-import Vertixplants from "../assets/vertixplant.png";
-import Atcs from "../assets/atcs.png";
-import LanyardP from "../assets/posterlanyard.png";
-import IdCard from "../assets/id_card.png";
+import Vertixplants from "../assets/vertixplant.jpg";
+import Atcs from "../assets/atcs.jpg";
+import LanyardP from "../assets/posterlanyard.jpg";
+import IdCard from "../assets/id_card.jpg";
 
 import {
   FaReact,

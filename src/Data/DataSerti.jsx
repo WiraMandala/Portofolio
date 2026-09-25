@@ -1,5 +1,5 @@
-import Excel from "../assets/Karirnex_Excel.png";
-import MsOffice from "../assets/Serti-Microsoft.png";
+import Excel from "../assets/Karirnex_Excel.jpg";
+import MsOffice from "../assets/Serti-Microsoft.jpg";
 
 export const certificates = [
       {

@@ -1,8 +1,6 @@
-import { FaReact, FaLaravel, FaFigma } from "react-icons/fa";
-import { SiTailwindcss, SiMysql } from "react-icons/si";
 import ProfileCard from "./ProfileCard";
 import IconPattern from "../../assets/iconpattern.png";
-import Avatar from "../../assets/avatar.png";
+import Avatar from "../../assets/avatar.jpg";
 import { useNavigate, useLocation } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
 import { IoMdCheckmark } from "react-icons/io";
