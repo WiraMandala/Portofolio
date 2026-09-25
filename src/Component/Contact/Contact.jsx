@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { FiMail, FiGithub, FiArrowUpRight, FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser'
 import {
   Alert,
   AlertContent,
