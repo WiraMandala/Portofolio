@@ -30,7 +30,7 @@ export default () => {
     <section id="About" className="bg-[#0B1220]">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="items-center gap-10 lg:gap-x-20 lg:flex">
-          <div className="flex-1 flex justify-center relative h-[60svh] sm:h-[60svh] md:h-[65svh] lg:h-[70svh] overflow-hidden">
+          <div className="flex-1 flex justify-center relative h-[58svh] sm:h-[58svh] md:h-[58svh] lg:h-[70svh] overflow-hidden">
             <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
           </div>
 
