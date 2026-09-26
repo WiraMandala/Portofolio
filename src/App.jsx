@@ -1,4 +1,5 @@
-import ProjectDetail from "./Component/Project/ProjectDetail";
+import { lazy, Suspense } from "react";
+const ProjectDetail = lazy(() => import("./component/Project/ProjectDetail"));
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Navbar from "./Component/Navbar";
@@ -12,7 +13,14 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects/:id" element={<ProjectDetail />} />
+            <Route
+              path="/projects/:id"
+              element={
+                <Suspense fallback={<div className="min-h-screen" />}>
+                  <ProjectDetail />
+                </Suspense>
+              }
+            />
           </Routes>
         </div>
         <Footer />

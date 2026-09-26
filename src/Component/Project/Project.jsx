@@ -99,6 +99,8 @@ const Project = () => {
                   <img
                     src={item.image}
                     alt={item.title}
+                    loading="lazy"
+                    decoding="async"
                     className="block max-w-full h-auto object-contain"
                   />
 
@@ -165,6 +167,8 @@ const Project = () => {
                     <img
                       src={item.image}
                       alt={item.title}
+                      loading="lazy"
+                      decoding="async"
                       className="
                   max-h-[280px]
                   w-full

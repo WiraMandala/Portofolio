@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { FiMail, FiGithub, FiArrowUpRight, FiInstagram } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 import {
   Alert,
   AlertContent,
@@ -14,9 +14,10 @@ const Contact = () => {
   const [status, setStatus] = useState(null);
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
+    const emailjs = (await import("@emailjs/browser")).default;
     emailjs
       .sendForm(
         "service_f3z5frk",
