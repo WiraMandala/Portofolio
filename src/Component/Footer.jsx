@@ -1,4 +1,3 @@
-import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import logo from "../assets/MandalaProject.svg";
 import { useLocation, useNavigate } from "react-router-dom";
 

@@ -75,7 +75,7 @@ const ProjectDetail = () => {
           </p>
 
           <div className="border-t border-[#365FBE]/20  pt-6 space-y-3">
-            <p className="text-xs text-gray-500 tracking-widest uppercase">
+            <p className="text-xs text-gray-400 tracking-widest uppercase">
               Tech Stack
             </p>
 
@@ -96,33 +96,33 @@ const ProjectDetail = () => {
 
           <div className="border-t border-[#365FBE]/20 pt-6 grid grid-cols-2 gap-6">
             <div>
-              <p className="text-xs text-gray-500 tracking-widest uppercase mb-1">
+              <p className="text-xs text-gray-400 tracking-widest uppercase mb-1">
                 Role
               </p>
-              <h4 className="text-white font-semibold">{project.role}</h4>
+              <h2 className="text-white font-semibold">{project.role}</h2>
             </div>
 
             <div>
-              <p className="text-xs text-gray-500 tracking-widest uppercase mb-1">
+              <p className="text-xs text-gray-400 tracking-widest uppercase mb-1">
                 Type
               </p>
-              <h4 className="text-white font-semibold">{project.type}</h4>
+              <h2 className="text-white font-semibold">{project.type}</h2>
             </div>
 
             <div>
-              <p className="text-xs text-gray-500 tracking-widest uppercase mb-1">
+              <p className="text-xs text-gray-400 tracking-widest uppercase mb-1">
                 Project
               </p>
-              <h4 className="text-white font-semibold">
+              <h2 className="text-white font-semibold">
                 {project.projectType}
-              </h4>
+              </h2>
             </div>
 
             <div>
-              <p className="text-xs text-gray-500 tracking-widest uppercase mb-1">
+              <p className="text-xs text-gray-400 tracking-widest uppercase mb-1">
                 Status
               </p>
-              <h4 className="text-white font-semibold">{project.status}</h4>
+              <h2 className="text-white font-semibold">{project.status}</h2>
             </div>
           </div>
         </div>
@@ -135,9 +135,9 @@ const ProjectDetail = () => {
               <span className="w-3 h-3 rounded-full bg-green-400"></span>
             </div>
 
-            <h3 className="text-xs md:text-xs text-gray-400 font-mono">
+            <h2 className="text-xs md:text-xs text-gray-400 font-mono">
               {project.title.toLowerCase().replace(/\s/g, "")}
-            </h3>
+            </h2>
           </div>
 
           <div className="overflow-hidden border border-[#365FBE]/20 group">
