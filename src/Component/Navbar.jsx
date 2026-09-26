@@ -139,19 +139,24 @@ const Navbar = () => {
 
           <button
             onClick={() => setOpen(!open)}
+            aria-label={open ? "Tutup menu" : "Buka menu"}
+            aria-expanded={open}
             className="md:hidden relative w-9 h-9 flex items-center justify-center "
           >
             <span
+              aria-hidden="true"
               className={`absolute h-0.5 w-6 bg-white transition-all duration-300 ${
                 open ? "rotate-45" : "-translate-y-2"
               }`}
             />
             <span
+              aria-hidden="true"
               className={`absolute h-0.5 w-6 bg-white transition-all duration-300 ${
                 open ? "opacity-0" : ""
               }`}
             />
             <span
+              aria-hidden="true"
               className={`absolute h-0.5 w-6 bg-white transition-all duration-300 ${
                 open ? "-rotate-45" : "translate-y-2"
               }`}
