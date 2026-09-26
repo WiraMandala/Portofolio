@@ -10,7 +10,6 @@ textarea:-webkit-autofill {
 
 @theme {
   --font-mono: 'Roboto Mono', monospace;
-  --font-grotesk: 'Space Grotesk', sans-serif;
 }
 
 .font-mono {

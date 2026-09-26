@@ -1,40 +1,47 @@
 <!doctype html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="prefetch" href="/assets/avatar.webp">
+    <link rel="preload" as="image" href="/assets/avatar.webp" />
+    <link rel="modulepreload" href="/src/main.jsx" />
 
-  <meta name="description" content="Mandala Project — Portofolio Wira Satria Mandala, UI/UX Designer & Web Developer. Membangun solusi digital modern, responsif, dan berfokus pada pengalaman pengguna." />
-
-  <link rel="canonical" href="https://mandalaproject.vercel.app/" />
-
-  <meta property="og:title" content="Mandala Project" />
-  <meta property="og:description" content="Portofolio Wira Satria Mandala — UI/UX Designer & Web Developer." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://mandalaproject.vercel.app/" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-  <link
-    rel="preload"
-    as="style"
-    href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&family=Roboto+Mono:wght@100..700&display=swap"
-    onload="this.onload=null;this.rel='stylesheet'"
-  />
-
-  <noscript>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Space+Grotesk:wght@300..700&family=Roboto+Mono:wght@100..700&display=swap"
+    <meta
+      name="description"
+      content="Mandala Project — Portofolio Wira Satria Mandala, UI/UX Designer & Web Developer. Membangun solusi digital modern, responsif, dan berfokus pada pengalaman pengguna."
     />
-  </noscript>
 
-  <title>Mandala Project</title>
-</head>
+    <link rel="canonical" href="https://mandalaproject.vercel.app/" />
+
+    <meta property="og:title" content="Mandala Project" />
+    <meta
+      property="og:description"
+      content="Portofolio Wira Satria Mandala — UI/UX Designer & Web Developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mandalaproject.vercel.app/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap"
+      onload="this.rel = 'stylesheet'"
+    />
+
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap"
+      />
+    </noscript>
+
+    <title>Mandala Project</title>
+  </head>
   <body class="bg-[#020617]">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
