@@ -10,26 +10,25 @@ const Hero = () => {
   const location = useLocation();
 
   const handleGoToPortfolio = () => {
+    const scrollToPortfolio = () => {
+      const el = document.getElementById("Portofolio");
+
+      el?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    };
+
     if (location.pathname !== "/") {
       navigate("/");
 
-      setTimeout(() => {
-        const el = document.getElementById("Portofolio");
-        if (el) {
-          window.scrollTo({
-            top: el.offsetTop - 80,
-            behavior: "smooth",
-          });
-        }
-      }, 100);
-    } else {
-      const el = document.getElementById("Portofolio");
-      if (el) {
-        window.scrollTo({
-          top: el.offsetTop - 80,
-          behavior: "smooth",
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          scrollToPortfolio();
         });
-      }
+      });
+    } else {
+      scrollToPortfolio();
     }
   };
 
