@@ -61,16 +61,19 @@ const Hero = () => {
               </span>
             </h1>
             <p className="text-base sm:text-base md:text-xl lg:text-lg text-gray-300 mb-4">
-              Mengembangkan aplikasi web modern yang mengutamakan fungsionalitas dan pengalaman pengguna yang interaktif.
+              Mengembangkan aplikasi web modern yang mengutamakan fungsionalitas
+              dan pengalaman pengguna yang interaktif.
             </p>
             <p className="text-sm sm:text-sm md:text-lg lg:text-base text-gray-400 mb-6">
-              Setiap proyek dirancang dengan pendekatan yang seimbang antara desain visual yang rapi dan pengembangan yang efisien serta responsif.
+              Setiap proyek dirancang dengan pendekatan yang seimbang antara
+              desain visual yang rapi dan pengembangan yang efisien serta
+              responsif.
             </p>
 
             <div className="flex sm:flex-row gap-4 sm:justify justify-center lg:justify-start">
               <button
                 onClick={handleGoToPortfolio}
-                className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 text-white bg-[#365FBE] text-sm sm:text-sm md:text-base"
+                className="group flex items-center justify-center gap-3 px-6 sm:px-8 py-3 text-white bg-[#365FBE] text-sm sm:text-sm md:text-base"
               >
                 Lihat Proyek
                 <svg
@@ -79,7 +82,7 @@ const Hero = () => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
+                  className="w-[1em] h-[1em] shrink-0 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
                 >
                   <path
                     strokeLinecap="round"
