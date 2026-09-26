@@ -379,8 +379,8 @@ const ProfileCardComponent = ({
             </div>
             <div className="pc-content">
               <div className="pc-details">
-                <h3>{name}</h3>
-                <p>{title}</p>
+                {name && <h3>{name}</h3>}
+                {title && <p>{title}</p>}
               </div>
             </div>
           </div>

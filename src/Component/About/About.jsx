@@ -53,7 +53,7 @@ export default () => {
             <div className="flex gap-6 sm:gap-10 pt-4 flex-wrap">
               {stats.map((item, idx) => (
                 <div key={idx}>
-                  <h4 className="text-2xl sm:text-3xl font-bold text-white flex items-center gap-1">
+                  <h3 className="text-2xl sm:text-3xl font-bold text-white flex items-center gap-1">
                     <CountUp
                       from={0}
                       to={parseInt(item.data)}
@@ -62,7 +62,7 @@ export default () => {
                       duration={2}
                     />
                     +
-                  </h4>
+                  </h3>
                   <p className="text-gray-400 text-xs sm:text-sm mt-1">
                     {item.title}
                   </p>

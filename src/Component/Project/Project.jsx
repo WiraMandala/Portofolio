@@ -116,9 +116,9 @@ const Project = () => {
                   {item.category}
                 </span>
 
-                <h5 className="mt-2 text-xl font-semibold text-white">
+                <h3 className="mt-2 text-xl font-semibold text-white">
                   {item.title}
-                </h5>
+                </h3>
 
                 <p className="mb-4 py-2 text-gray-400 text-sm">
                   {item.description}
@@ -186,9 +186,9 @@ const Project = () => {
                       </span>
                       <span className="text-[#365FBE]">{item.years}</span>
                     </div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-white leading-tight">
+                    <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
                       {item.title}
-                    </h2>
+                    </h3>
                     <div
                       className="
               pt-5
