@@ -102,13 +102,13 @@ const Hero = () => {
             <div className="mt-8 flex items-center gap-6 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <span className="text-[#365FBE]">
-                  <CiLocationOn size={20} />
+                  <CiLocationOn size={20} aria-hidden="true" />
                 </span>
                 <span className="text-xs">Sumedang</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-[#365FBE]">
-                  <IoMdCheckmark size={20} />
+                  <IoMdCheckmark size={20} aria-hidden="true" />
                 </span>
                 <span className="text-xs">Available for selected projects</span>
               </div>
