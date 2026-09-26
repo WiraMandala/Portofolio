@@ -134,7 +134,7 @@ const Hero = () => {
             />
           </div>
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 text-gray-400 ">
-            <span className="text-[10px] tracking-[0.3em] text-[#365FBE] font-mono">
+            <span className="text-[10px] tracking-[0.3em] text-[#4F7CFF] font-mono">
               Scroll to Explore
             </span>
             <svg
@@ -143,7 +143,7 @@ const Hero = () => {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-4 h-4 text-[#365FBE] rotate-45 animate-pulse"
+              className="w-4 h-4 text-[#4F7CFF] rotate-45 animate-pulse"
             >
               <path
                 strokeLinecap="round"
