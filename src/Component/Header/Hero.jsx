@@ -47,29 +47,30 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-16 sm:py-20 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12  items-center">
           <div className="text-left mt-4 flex flex-col items-start">
-            <span className="mb-6 text-[11px] tracking-wider text-gray-400 font-mono flex items-center gap-2 uppercase">
+            <span className="mb-6 text-[10px] tracking-wider text-gray-400 font-mono flex items-center gap-2 uppercase">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 shadow-[0_0_6px_#22c55e]"></span>
-              Hello, i'm Wira.
+              Halo, i'm Wira.
             </span>
-            <span className="text-[18px] font-semibold tracking-wider text-gray-300 mb-2">
+            <span className="text-[16px] font-semibold tracking-wider text-gray-300 mb-2">
               Wira Satria Mandala
             </span>
-            <h1 className="font-bold text-5xl md:text-7xl mb-6 text-white">
+            <h1 className="font-extrabold text-4xl md:text-6xl mb-4 text-white">
               UI/UX Designer &{" "}
-              <span className="bg-gradient-to-r from-[#365FBE] to-[#4F7CFF] text-transparent bg-clip-text font-bold">
+              <span className="bg-gradient-to-r from-[#365FBE] to-[#4F7CFF] text-transparent bg-clip-text font-extrabold">
                 Web Developer
               </span>
             </h1>
-            <p className="text-lg sm:text-lg md:text-2xl lg:text-lg text-gray-300 mb-6 ">
-              Membangun solusi digital yang modern, responsif, dan berfokus pada
-              pengalaman pengguna, dengan desain intuitif dan pengembangan yang
-              efisien.
+            <p className="text-base sm:text-base md:text-xl lg:text-lg text-gray-300 mb-4">
+              Mengembangkan aplikasi web modern yang mengutamakan fungsionalitas dan pengalaman pengguna yang interaktif.
+            </p>
+            <p className="text-sm sm:text-sm md:text-lg lg:text-base text-gray-400 mb-6">
+              Setiap proyek dirancang dengan pendekatan yang seimbang antara desain visual yang rapi dan pengembangan yang efisien serta responsif.
             </p>
 
             <div className="flex sm:flex-row gap-4 sm:justify justify-center lg:justify-start">
               <button
                 onClick={handleGoToPortfolio}
-                className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 text-white bg-[#365FBE] font-semibold "
+                className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 text-white bg-[#365FBE]"
               >
                 Lihat Proyek
                 <svg
@@ -91,7 +92,7 @@ const Hero = () => {
                 href="https://drive.google.com/file/d/1G9m02gDkFtnYv4sz9Ic3JO8azXwcXt3l/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 sm:px-8 py-3 border border-[#365FBE] bg-[#365FBE]/20 text-white hover:bg-[#365FBE]/60 transition text-center font-semibold"
+                className="px-6 sm:px-8 py-3 border border-[#365FBE] bg-[#365FBE]/20 text-white hover:bg-[#365FBE]/60 transition text-center"
               >
                 Download CV
               </a>
