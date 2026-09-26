@@ -87,7 +87,7 @@ const Contact = () => {
               01
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
-              <FiMail />
+              <FiMail aria-hidden="true" />
             </div>
             <p className="text-xs tracking-[0.2em] text-gray-400 uppercase mb-2 font-mono">
               Direct Contact
@@ -95,7 +95,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-white mb-1">Email</h3>
             <p className="text-gray-400 text-sm">wiramandala21@gmail.com</p>
             <span className="absolute bottom-4 right-4 text-[#365FBE] group-hover:translate-x-1 transition">
-              <FiArrowUpRight />
+              <FiArrowUpRight aria-hidden="true" />
             </span>
           </a>
 
@@ -109,7 +109,7 @@ const Contact = () => {
               02
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
-              <FiInstagram />
+              <FiInstagram aria-hidden="true" />
             </div>
             <p className="text-xs tracking-[0.2em] text-gray-400 uppercase mb-2 font-mono">
               Personal Profile
@@ -119,7 +119,7 @@ const Contact = () => {
             </h3>
             <p className="text-gray-400 text-sm">@wramndlaaaa</p>
             <span className="absolute bottom-4 right-4 text-[#365FBE] group-hover:translate-x-1 transition">
-              <FiArrowUpRight />
+              <FiArrowUpRight aria-hidden="true" />
             </span>
           </a>
 
@@ -133,7 +133,7 @@ const Contact = () => {
               03
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
-              <FaLinkedinIn />
+              <FaLinkedinIn aria-hidden="true" />
             </div>
             <p className="text-xs tracking-[0.2em] text-gray-400 uppercase mb-2 font-mono">
               Professional Profile
@@ -141,7 +141,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-white mb-1">LinkedIn</h3>
             <p className="text-gray-400 text-sm">@Wira Mandala</p>
             <span className="absolute bottom-4 right-4 text-[#365FBE] group-hover:translate-x-1 transition">
-              <FiArrowUpRight />
+              <FiArrowUpRight aria-hidden="true" />
             </span>
           </a>
 
@@ -155,7 +155,7 @@ const Contact = () => {
               04
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
-              <FiGithub />
+              <FiGithub aria-hidden="true" />
             </div>
             <p className="text-xs tracking-[0.2em] text-gray-400 uppercase mb-2 font-mono">
               Project Repository
@@ -163,7 +163,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-white mb-1">GitHub</h3>
             <p className="text-gray-400 text-sm">@WiraMandala</p>
             <span className="absolute bottom-4 right-4 text-[#365FBE] group-hover:translate-x-1 transition">
-              <FiArrowUpRight />
+              <FiArrowUpRight aria-hidden="true" />
             </span>
           </a>
         </div>

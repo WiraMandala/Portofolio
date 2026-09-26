@@ -12,9 +12,9 @@ const Project = () => {
   const [active, setActive] = useState("Selected Works");
 
   const mainTabs = [
-    { name: "Project", icon: <FaLayerGroup size={18} /> },
-    { name: "Certificate", icon: <LiaCertificateSolid size={22} /> },
-    { name: "Tech", icon: <HiCodeBracket size={20} /> },
+    { name: "Project", icon: <FaLayerGroup size={18} aria-hidden="true" /> },
+    { name: "Certificate", icon: <LiaCertificateSolid size={22} aria-hidden="true" /> },
+    { name: "Tech", icon: <HiCodeBracket size={20} aria-hidden="true" /> },
   ];
 
   const categories = ["Selected Works", "UI/UX", "Web Development", "Lainnya"];

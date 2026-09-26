@@ -133,7 +133,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="hidden md:flex items-center justify-center text-white hover:text-[#365FBE] transition"
           >
-            <FiGithub size={20} />
+            <FiGithub size={20} aria-hidden="true" />
           </a>
 
           <button
