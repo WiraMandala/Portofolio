@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-const ProjectDetail = lazy(() => import("./component/Project/ProjectDetail"));
+const ProjectDetail = lazy(() => import("./Component/Project/ProjectDetail"));
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Navbar from "./Component/Navbar";
