@@ -107,14 +107,14 @@ const Navbar = () => {
                   onClick={() => handleScrollTo(item.id)}
                   className={`relative pb-1 transition group ${
                     activeSection === item.id
-                      ? "text-[#365FBE]"
-                      : "text-white hover:text-[#365FBE]"
+                      ? "text-[#4F7CFF]"
+                      : "text-white hover:text-[#4F7CFF]"
                   }`}
                 >
                   {item.name}
 
                   <span
-                    className={`absolute left-0 bottom-0 h-[2px] bg-[#365FBE] transition-all duration-300 ${
+                    className={`absolute left-0 bottom-0 h-[2px] bg-[#4F7CFF] transition-all duration-300 ${
                       activeSection === item.id
                         ? "w-full"
                         : "w-0 group-hover:w-full"
@@ -132,7 +132,7 @@ const Navbar = () => {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="hidden md:flex items-center justify-center text-white hover:text-[#365FBE] transition"
+            className="hidden md:flex items-center justify-center text-white hover:text-[#4F7CFF] transition"
           >
             <FiGithub size={20} aria-hidden="true" />
           </a>

@@ -115,7 +115,7 @@ const Project = () => {
                   </div>
                 </div>
 
-                <span className="inline-block mt-4 text-xs text-[#365FBE] font-mono">
+                <span className="inline-block mt-4 text-xs text-[#4F7CFF] font-mono">
                   {item.category}
                 </span>
 

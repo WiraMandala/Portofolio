@@ -76,7 +76,7 @@ const Footer = () => {
         </ul>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 text-center text-gray-500 text-sm py-6 border-t border-[#365FBE]/20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 text-center text-gray-400 text-sm py-6 border-t border-[#365FBE]/20">
         © 2026 MandalaProject. All rights reserved.
       </div>
     </footer>

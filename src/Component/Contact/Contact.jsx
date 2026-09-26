@@ -83,7 +83,7 @@ const Contact = () => {
             href="mailto:wiramandala21@gmail.com"
             className="group relative border border-[#365FBE]/30 bg-[#020617] p-6 hover:border-[#365FBE] transition overflow-hidden"
           >
-            <span className="absolute top-4 right-4 text-xs text-gray-500 font-mono">
+            <span className="absolute top-4 right-4 text-xs text-gray-400 font-mono">
               01
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
@@ -105,7 +105,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="group relative border border-[#365FBE]/30 bg-[#020617] p-6 hover:border-[#365FBE] transition overflow-hidden"
           >
-            <span className="absolute top-4 right-4 text-xs text-gray-500 font-mono">
+            <span className="absolute top-4 right-4 text-xs text-gray-400 font-mono">
               02
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
@@ -129,7 +129,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="group relative border border-[#365FBE]/30 bg-[#020617] p-6 hover:border-[#365FBE] transition overflow-hidden"
           >
-            <span className="absolute top-4 right-4 text-xs text-gray-500 font-mono">
+            <span className="absolute top-4 right-4 text-xs text-gray-400 font-mono">
               03
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
@@ -151,7 +151,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="group relative border border-[#365FBE]/30 bg-[#020617] p-6 hover:border-[#365FBE] transition overflow-hidden"
           >
-            <span className="absolute top-4 right-4 text-xs text-gray-500 font-mono">
+            <span className="absolute top-4 right-4 text-xs text-gray-400 font-mono">
               04
             </span>
             <div className="w-12 h-12 flex items-center justify-center border border-[#365FBE]/30 text-[#365FBE] text-xl mb-6">
