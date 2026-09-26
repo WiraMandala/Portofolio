@@ -85,7 +85,9 @@ const ProjectDetail = () => {
                   key={tech.name}
                   className="flex items-center gap-2 px-3 py-1 text-xs border border-[#365FBE]/30 bg-[#0B1220] text-gray-400"
                 >
-                  {tech.icon}
+                  <span aria-hidden="true" className="inline-flex">
+                    {tech.icon}
+                  </span>
                   {tech.name}
                 </span>
               ))}

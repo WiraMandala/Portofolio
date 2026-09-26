@@ -13,7 +13,10 @@ const Project = () => {
 
   const mainTabs = [
     { name: "Project", icon: <FaLayerGroup size={18} aria-hidden="true" /> },
-    { name: "Certificate", icon: <LiaCertificateSolid size={22} aria-hidden="true" /> },
+    {
+      name: "Certificate",
+      icon: <LiaCertificateSolid size={22} aria-hidden="true" />,
+    },
     { name: "Tech", icon: <HiCodeBracket size={20} aria-hidden="true" /> },
   ];
 
@@ -130,7 +133,9 @@ const Project = () => {
                       key={tech.name}
                       className="flex items-center gap-2 px-3 py-1 text-xs border border-white/10 text-gray-300"
                     >
-                      {tech.icon}
+                      <span aria-hidden="true" className="inline-flex">
+                        {tech.icon}
+                      </span>
                       {tech.name}
                     </span>
                   ))}
