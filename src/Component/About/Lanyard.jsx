@@ -71,7 +71,7 @@ export default function Lanyard({
         }
       >
         <ambientLight intensity={Math.PI} />
-        <Physics gravity={gravity} timeStep={isMobile ? 1 / 30 : 1 / 60}>
+        <Physics gravity={gravity} timeStep={isMobile ? 1 / 20 : 1 / 60}>
           <Band
             isMobile={isMobile}
             frontImage={frontImage}
