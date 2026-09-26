@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function useInView(options = { rootMargin: "200px" }) {
+export default function useInView(options = { rootMargin: "0px", threshold: 0.1 }) {
   const ref = useRef(null);
   const [inView, setInView] = useState(false);
 
