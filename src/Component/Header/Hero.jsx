@@ -70,7 +70,7 @@ const Hero = () => {
             <div className="flex sm:flex-row gap-4 sm:justify justify-center lg:justify-start">
               <button
                 onClick={handleGoToPortfolio}
-                className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 text-white bg-[#365FBE]"
+                className="flex items-center justify-center gap-3 px-6 sm:px-8 py-3 text-white bg-[#365FBE] text-sm sm:text-sm md:text-base"
               >
                 Lihat Proyek
                 <svg
@@ -92,7 +92,7 @@ const Hero = () => {
                 href="https://drive.google.com/file/d/1G9m02gDkFtnYv4sz9Ic3JO8azXwcXt3l/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 sm:px-8 py-3 border border-[#365FBE] bg-[#365FBE]/20 text-white hover:bg-[#365FBE]/60 transition text-center"
+                className="px-6 sm:px-8 py-3 border border-[#365FBE] bg-[#365FBE]/20 text-white hover:bg-[#365FBE]/60 transition text-center text-sm sm:text-sm md:text-base "
               >
                 Download CV
               </a>
