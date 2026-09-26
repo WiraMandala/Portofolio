@@ -1,6 +1,6 @@
 import ProfileCard from "./ProfileCard";
 import IconPattern from "../../assets/iconpattern.png";
-import Avatar from "../../assets/avatar.jpg";
+import Avatar from "../../assets/avatar.webp";
 import { useNavigate, useLocation } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
 import { IoMdCheckmark } from "react-icons/io";
