@@ -60,7 +60,7 @@ const Hero = () => {
                 Web Developer
               </span>
             </h1>
-            <p className="text-lg sm:text-lg md:text-2xl lg:text-lg text-gray-300 mb-8 ">
+            <p className="text-lg sm:text-lg md:text-2xl lg:text-lg text-gray-300 mb-6 ">
               Membangun solusi digital yang modern, responsif, dan berfokus pada
               pengalaman pengguna, dengan desain intuitif dan pengembangan yang
               efisien.
