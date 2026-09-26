@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import CountUp from "../About/CountUp";
+import useInView from "../../hooks/useInView";
 const Lanyard = lazy(() => import("../About/Lanyard"));
 
 const stats = [
@@ -14,14 +15,21 @@ const stats = [
 ];
 
 export default () => {
+  const [lanyardRef, lanyardInView] = useInView();
+
   return (
     <section id="About" className="bg-[#0B1220]">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8">
         <div className="items-center gap-10 lg:gap-x-20 lg:flex">
-          <div className="flex-1 flex justify-center relative h-[58svh] sm:h-[58svh] md:h-[58svh] lg:h-[70svh] overflow-hidden">
-            <Suspense fallback={<div className="w-full h-full" />}>
-              <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
-            </Suspense>
+          <div
+            ref={lanyardRef}
+            className="flex-1 flex justify-center relative h-[58svh] sm:h-[58svh] md:h-[58svh] lg:h-[70svh] overflow-hidden"
+          >
+            {lanyardInView && (
+              <Suspense fallback={<div className="w-full h-full" />}>
+                <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} />
+              </Suspense>
+            )}
           </div>
 
           <div className="py-10 sm:py-12 md:py-14 w-full space-y-5  md:mt-0 lg:max-w-2xl">
