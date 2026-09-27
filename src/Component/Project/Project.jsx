@@ -186,10 +186,10 @@ const Project = () => {
                   </div>
                   <div className="space-y-5">
                     <div className="flex items-center justify-between text-sm text-gray-400 font-semibold">
-                      <span className="tracking-[0.2em] text-[#365FBE] uppercase">
+                      <span className="tracking-[0.2em] text-[#4F7CFF] uppercase text-xs font-mono">
                         {item.category || "Certificate"}
                       </span>
-                      <span className="text-[#365FBE]">{item.years}</span>
+                      <span className="text-[#4F7CFF]">{item.years}</span>
                     </div>
                     <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
                       {item.title}
@@ -313,7 +313,7 @@ const Project = () => {
           >
             <div className="flex items-center justify-between px-6 py-4 border-b border-[#365FBE]/20">
               <div>
-                <p className="text-xs tracking-widest text-[#365FBE] uppercase">
+                <p className="text-xs tracking-widest text-[#4F7CFF] uppercase font-mono mb-2 font-semibold">
                   {selectedCertificate.category || "Certificate"}
                 </p>
                 <h2 className="text-lg md:text-xl font-semibold text-white">

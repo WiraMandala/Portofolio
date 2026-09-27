@@ -61,7 +61,7 @@ const ProjectDetail = () => {
 
         <span>/</span>
 
-        <span className="text-[#365FBE]">{project.title}</span>
+        <span className="text-[#4F7CFF]">{project.title}</span>
       </div>
 
       <div className=" grid lg:grid-cols-2 gap-15 items-center">
