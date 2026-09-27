@@ -45,7 +45,7 @@ const ProjectDetail = () => {
       <div className="text-sm text-gray-400 flex items-center gap-2 flex-wrap mb-6">
         <button
           onClick={handleGoHome}
-          className="hover:text-[#365FBE] transition"
+          className="hover:text-[#4F7CFF] transition"
         >
           Home
         </button>
@@ -54,7 +54,7 @@ const ProjectDetail = () => {
 
         <button
           onClick={handleGoToPortfolio}
-          className="hover:text-[#365FBE] transition"
+          className="hover:text-[#4F7CFF] transition"
         >
           Portofolio
         </button>
