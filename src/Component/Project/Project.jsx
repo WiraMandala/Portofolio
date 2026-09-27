@@ -143,7 +143,7 @@ const Project = () => {
                 <div className="mt-auto pt-4 border-t border-white/10">
                   <Link
                     to={`/projects/${item.id}`}
-                    className="text-sm text-white hover:text-[#365FBE] transition"
+                    className="text-sm text-white hover:text-[#4F7CFF] transition"
                   >
                     View Project
                   </Link>
@@ -203,7 +203,7 @@ const Project = () => {
                     >
                       <button
                         onClick={() => setSelectedCertificate(item)}
-                        className="text-white hover:text-[#365FBE] transition text-sm"
+                        className="text-white hover:text-[#4F7CFF] transition text-sm"
                       >
                         View Certificate
                       </button>
