@@ -45,7 +45,7 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-16 sm:py-20 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12  items-center">
-          <div className="text-left mt-4 flex flex-col items-start">
+          <div className="text-left flex flex-col items-start">
             <span className="mb-6 text-[10px] tracking-wider text-gray-400 font-mono flex items-center gap-2 uppercase">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 shadow-[0_0_6px_#22c55e]"></span>
               Halo, i'm Wira.

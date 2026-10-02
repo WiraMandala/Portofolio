@@ -185,11 +185,11 @@ const Project = () => {
                     />
                   </div>
                   <div className="space-y-5">
-                    <div className="flex items-center justify-between text-sm text-gray-400 font-semibold">
+                    <div className="flex items-center justify-between text-sm">
                       <span className="tracking-[0.2em] text-[#4F7CFF] uppercase text-xs font-mono">
                         {item.category || "Certificate"}
                       </span>
-                      <span className="text-[#4F7CFF]">{item.years}</span>
+                      <span className="text-[#4F7CFF] font-mono">{item.years}</span>
                     </div>
                     <h3 className="text-2xl md:text-3xl font-bold text-white leading-tight">
                       {item.title}
