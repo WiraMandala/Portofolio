@@ -342,7 +342,7 @@ const Project = () => {
                 <div className="space-y-4 text-sm">
                   <div>
                     <p className="text-gray-400">Year</p>
-                    <p className="text-white">
+                    <p className="text-white font-mono">
                       {selectedCertificate.years || "-"}
                     </p>
                   </div>
